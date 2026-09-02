@@ -1,0 +1,28 @@
+<article
+  class="{{ if not .Site.Params.homepage.showRecent }}
+    h-full
+  {{ end }} flex flex-col items-center justify-center text-center"
+>
+  {{ partial "profile.html" }}
+  <section class="prose dark:prose-invert">{{ .Content | emojify }}</section>
+</article>
+<section>
+  {{ partial "recent-articles.html" . }}
+</section>
+
+{{ $email := "" }}
+{{ $linkedin := "" }}
+{{ range site.Language.Params.Author.links }}
+  {{ with .email }}{{ $email = . }}{{ end }}
+  {{ with .linkedin }}{{ $linkedin = . }}{{ end }}
+{{ end }}
+
+<section class="mt-12 flex flex-col items-center text-center">
+  <h2 class="text-2xl font-bold">Want to get in touch?</h2>
+  <p class="mb-4 mt-8 max-w-prose text-center text-base leading-relaxed text-neutral-500 dark:text-neutral-400">
+    I'm happy to engage with you by
+    <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $email | safeURL }}">e-mail</a>
+    or connect on
+    <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $linkedin | safeURL }}" target="_blank" rel="me noopener noreferrer">LinkedIn</a>.
+  </p>
+</section>

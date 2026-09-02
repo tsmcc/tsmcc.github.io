@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "About Tim McCallum"
+description: "Meet Tim McCallum, a marine engineer and technical leader with experience leading vessel operations, engineering teams, and industry-defining maritime projects."
 showDate: false
 showReadingTime: false
 showWordCount: false
@@ -14,9 +14,9 @@ Hello, I'm **Tim**. <span style="font-size: 1.5em; line-height: 1;" role="img" a
 
 ---
 
-I'm a dad to **Jack**, a husband to **Stephanie**, and a [marine engineer](https://en.wikipedia.org/wiki/Marine_engineering) ⚓ by education, license, and profession. My professional and personal interests are too numerous to count: marine engineering &rarr; leadership & management &rarr; computers, technology, gaming, 3D printing and *so* much more.
+I'm a dad to **Jack**, a husband to **Stephanie**, and a [marine engineer](https://en.wikipedia.org/wiki/Marine_engineering) {{< emoji "propeller" >}} by education and career. My professional and personal interests are too numerous to count: marine engineering &rarr; leadership & management &rarr; computers, technology, photography, gaming, 3D printing and *so* much more.
 
-Professionally, I've been a **Chief Engineer** aboard offshore tugs, an engineering manager responsible for the day-to-day operation of dozens of vessels and crews, and a corporate engineering executive focused on leading teams through **industry-defining projects** and embracing new technologies at the forefront of the maritime field.
+Over the course of my career, I've been a **Chief Engineer** aboard offshore tugs, an engineering manager responsible for the day-to-day operation of dozens of vessels and crews, and a corporate engineering executive focused on leading teams on **industry-defining projects** and embracing new technologies at the forefront of the maritime field.
 
 Hands down, though, my favorite occupation is being a **dad**.
 
@@ -35,7 +35,7 @@ Leadership | Management | Engineering | Technology | Project Management | Financ
 - **Tug of the Year** 2025, as project lead, Professional Mariner ([article](https://professionalmariner.com/article/signet-capella-sets-a-new-global-standard-for-raw-power-and-agility/))
 - **Boat of the Year** and **Innovation of the Year** Finalist 2024, as project lead, International Tug & Salvage ([nomination](https://www.rivieramm.com/international-tug-and-salvage-convention-awards/annual-international-tug-salvage-awards-2024))
 - **Significant Vessel of 2017**, as engineering project manager, International WorkBoat Show ([award](https://www.workboat.com/significant-boats/2017-significant-boats/gladys-b))
-- **Significant Vessel of 2014**, as **Chief Engineer** and owner's representative, International WorkBoat Show ([award](https://www.workboat.com/significant-boats/2014-significant-boats/signet-arcturus-and-signet-polaris))
+- **Significant Vessel of 2014**, as Chief Engineer and owner's representative, International WorkBoat Show ([award](https://www.workboat.com/significant-boats/2014-significant-boats/signet-arcturus-and-signet-polaris))
 
 ## Memberships & Community
 

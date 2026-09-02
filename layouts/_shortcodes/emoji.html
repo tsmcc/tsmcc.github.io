@@ -1,0 +1,17 @@
+{{- $name := lower (.Get 0) -}}
+{{- $emojis := dict
+  "propeller" (dict "path" "img/emoji/propeller.svg" "alt" "Propeller")
+-}}
+{{- $emoji := index $emojis $name -}}
+{{- if not $emoji -}}
+  {{- errorf "Unknown emoji %q on %s" $name .Page.File.Path -}}
+{{- end -}}
+{{- $alt := .Get 1 | default (index $emoji "alt") -}}
+<img
+  src="{{ index $emoji "path" | relURL }}"
+  alt="{{ $alt }}"
+  class="inline-block"
+  style="display: inline-block; width: 1em; height: 1em; margin: 0 0.08em; vertical-align: -0.12em;"
+  loading="eager"
+  decoding="async"
+/>
