@@ -9,7 +9,7 @@ showAuthor: false
 ---
 
 {{< about-intro >}}
-Hello, I'm Tim. <span style="font-size: 1.5em; line-height: 1;" role="img" aria-label="Waving hand">👋</span>
+Hello, I'm **Tim**. <span style="font-size: 1.5em; line-height: 1;" role="img" aria-label="Waving hand">👋</span>
 {{< /about-intro >}}
 
 ---
