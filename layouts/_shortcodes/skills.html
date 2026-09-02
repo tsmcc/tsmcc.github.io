@@ -1,9 +1,9 @@
 {{- $skills := split (.Inner | strings.TrimSpace) "|" -}}
-<div class="not-prose my-7 flex flex-wrap gap-3" aria-label="Skills">
+<div class="not-prose my-6 flex flex-wrap justify-center" style="column-gap: 1.25rem; row-gap: 0.75rem;" aria-label="Skills">
   {{- range $skills }}
     {{- $skill := strings.TrimSpace . -}}
     {{- with $skill }}
-      <span class="rounded-full border border-primary-500 bg-primary-500 px-4 py-1.5 text-sm font-medium text-white dark:border-primary-400 dark:bg-primary-500 dark:text-white">{{ . }}</span>
+      <span class="rounded-full border border-primary-400 bg-primary-600 px-3 py-1 text-sm font-medium text-white">{{ . }}</span>
     {{- end }}
   {{- end }}
 </div>
