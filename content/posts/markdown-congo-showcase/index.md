@@ -153,9 +153,9 @@ Standard Markdown image syntax is supported:
 Congo's figure shortcode adds optimized presentation and a caption:
 
 {{< figure
-  src="img/28_noBG.png"
+  src="/android-chrome-512x512.png"
   alt="Profile image used on tsmccallum.com"
-  caption="A Congo figure using an image from the site's asset pipeline."
+  caption="A Congo figure using a root-relative static site image."
 >}}
 
 ## Congo components
