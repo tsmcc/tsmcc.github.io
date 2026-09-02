@@ -32,10 +32,11 @@ jobs:
           extended: true
 
       - name: Configure GitHub Pages
+        id: pages
         uses: actions/configure-pages@v5
 
       - name: Build site
-        run: hugo --gc --minify
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
