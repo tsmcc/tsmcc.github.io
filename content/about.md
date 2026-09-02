@@ -14,7 +14,7 @@ Hello, I'm Tim. <span style="font-size: 1.5em; line-height: 1;" role="img" aria-
 
 ---
 
-I'm a dad to **Jack**, a husband to **Stephanie**, and a [marine engineer](https://en.wikipedia.org/wiki/Marine_engineering) ⚓ by education, license, and profession. My professional and personal interests are too numerous to count: marine engineering &#45;&#45;&gt; leadership & management &#45;&#45;&gt; computers, technology, gaming, 3D printing and *so* much more.
+I'm a dad to **Jack**, a husband to **Stephanie**, and a [marine engineer](https://en.wikipedia.org/wiki/Marine_engineering) ⚓ by education, license, and profession. My professional and personal interests are too numerous to count: marine engineering &rarr; leadership & management &rarr; computers, technology, gaming, 3D printing and *so* much more.
 
 Professionally, I've been a **Chief Engineer** aboard offshore tugs, an engineering manager responsible for the day-to-day operation of dozens of vessels and crews, and a corporate engineering executive focused on leading teams through **industry-defining projects** and embracing new technologies at the forefront of the maritime field.
 
