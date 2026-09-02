@@ -15,7 +15,7 @@ title = "tsmccallum.com"
 [params.author]
   name = "tsmccallum.com"
   image = "img/28_noBG.png"
-  headline = "personal page of tsmccallum"
+  headline = "Dad. Husband. Marine engineer. Avid tech geek."
   # bio = "A little bit about you"
   links = [
     { github = "https://github.com/tsmcc" },
