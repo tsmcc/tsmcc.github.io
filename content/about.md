@@ -22,7 +22,7 @@ Hands down, though, my favorite occupation is being a **dad**.
 
 I grew up in [Scituate, Massachusetts](https://en.wikipedia.org/wiki/Scituate,_Massachusetts) and received my B.S. from the [Massachusetts Maritime Academy](https://www.maritime.edu). I moved to the [Corpus Christi, Texas](https://en.wikipedia.org/wiki/Corpus_Christi,_Texas) area for work, lived in Texas for nearly fifteen years, and have since relocated back to Massachusetts.
 
-## Skills
+## Areas of Expertise
 
 {{< skills >}}
 Leadership | Management | Engineering | Technology | Project Management | Finance | Environmental Leadership | Lifecycle Maintenance | 2D/3D Technical Design | Policy | Cybersecurity | Marketing
