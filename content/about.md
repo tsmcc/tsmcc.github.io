@@ -8,7 +8,9 @@ showTableOfContents: false
 showAuthor: true
 ---
 
+{{< about-intro >}}
 Hello, I'm Tim. <span style="font-size: 1.5em; line-height: 1;" role="img" aria-label="Waving hand">👋</span>
+{{< /about-intro >}}
 
 ## About Me
 

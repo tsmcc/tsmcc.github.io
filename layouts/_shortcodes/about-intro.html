@@ -1,0 +1,14 @@
+<div class="not-prose mb-6 flex items-center">
+  {{ with resources.Get "img/28_noBG.png" }}
+    {{ partial "picture.html" (dict
+      "img" .
+      "alt" "Tim McCallum"
+      "class" "me-4 h-auto w-24 rounded-full"
+      "lazy" false
+      "webp" true
+    ) }}
+  {{ end }}
+  <div class="text-xl">
+    {{ .Inner | markdownify }}
+  </div>
+</div>
