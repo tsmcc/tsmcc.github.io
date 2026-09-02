@@ -18,12 +18,12 @@ title = "tsmccallum.com"
   headline = "Dad. Husband. Marine engineer. Avid tech geek."
   # bio = "A little bit about you"
   links = [
-    { github = "https://github.com/tsmcc" },
+    { email = "mailto:webmaster@tsmccallum.com" },
+    { x-twitter = "https://x.com/tsmccallum" },
     { linkedin = "https://www.linkedin.com/in/tsmccallum/" },
     { instagram = "https://www.instagram.com/ts.mcc/" },
-    { email = "mailto:webmaster@tsmccallum.com" },
     { youtube = "https://www.youtube.com/@ts_mcc" },
-    { x-twitter = "https://x.com/tsmccallum" },
+    { github = "https://github.com/tsmcc" },
   ]
 
   # Additional supported link examples:
