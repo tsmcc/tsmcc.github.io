@@ -4,6 +4,9 @@ date: 2026-09-02T09:00:00-04:00
 draft: false
 description: "A sample post demonstrating Markdown, Hugo, and Congo theme features."
 summary: "A practical gallery of Markdown formatting, Hugo content features, and Congo shortcodes."
+images: ["feature.jpg"]
+feature: "feature.jpg"
+featureAlt: "A Hugo-inspired magenta hexagon combined with the Markdown M and downward arrow symbol"
 tags: ["markdown", "hugo", "congo", "sample"]
 categories: ["Examples"]
 showTableOfContents: true
