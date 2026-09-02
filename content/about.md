@@ -12,7 +12,7 @@ showAuthor: true
 Hello, I'm Tim. <span style="font-size: 1.5em; line-height: 1;" role="img" aria-label="Waving hand">👋</span>
 {{< /about-intro >}}
 
-## About Me
+---
 
 I'm a dad to Jack, a husband to Stephanie, and a marine engineer ⚓ by education, license, and profession. My professional and personal interests are too numerous to count: marine engineering → leadership and management → computers and technology → gaming → 3D printing → and much more.
 
