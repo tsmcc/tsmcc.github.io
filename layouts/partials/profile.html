@@ -29,4 +29,9 @@
   <div class="mt-1 text-2xl">
     {{ partialCached "author-links.html" . }}
   </div>
+  {{ with site.Language.Params.Author.bio }}
+    <p class="mt-6 max-w-prose text-center text-base leading-relaxed text-neutral-600 dark:text-neutral-300">
+      {{ . | markdownify | emojify }}
+    </p>
+  {{ end }}
 </section>
