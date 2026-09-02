@@ -22,6 +22,12 @@ Hands down, though, my favorite occupation is being a **dad**.
 
 I grew up in [Scituate, Massachusetts](https://en.wikipedia.org/wiki/Scituate,_Massachusetts) and received my B.S. from the [Massachusetts Maritime Academy](https://www.maritime.edu). I moved to the [Corpus Christi, Texas](https://en.wikipedia.org/wiki/Corpus_Christi,_Texas) area for work, lived in Texas for nearly fifteen years, and have since relocated back to Massachusetts.
 
+## Skills
+
+{{< skills >}}
+Leadership | Management | Engineering | Technology | Project Management | Finance | Environmental Leadership | Lifecycle Maintenance | 2D/3D Technical Design | Policy | Cybersecurity | Marketing
+{{< /skills >}}
+
 ## Notable Career Achievements
 
 - **First U.S. Commercial 3D Vessel Design**, as project lead ([article](https://professionalmariner.com/abs-ral-signet-partnering-on-3d-designed-tugboat/) | [podcast](https://podcasts.apple.com/us/podcast/on-board-signet-capella-3d-design-with-signet-maritime/id1725555824?i=1000676495066))
