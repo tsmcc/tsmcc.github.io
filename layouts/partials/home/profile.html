@@ -11,9 +11,11 @@
 </section>
 
 {{ $email := "" }}
+{{ $xTwitter := "" }}
 {{ $linkedin := "" }}
 {{ range site.Language.Params.Author.links }}
   {{ with .email }}{{ $email = . }}{{ end }}
+  {{ with index . "x-twitter" }}{{ $xTwitter = . }}{{ end }}
   {{ with .linkedin }}{{ $linkedin = . }}{{ end }}
 {{ end }}
 
@@ -21,8 +23,10 @@
   <h2 class="text-2xl font-bold">Want to get in touch?</h2>
   <p class="mb-4 mt-8 max-w-prose text-center text-base leading-relaxed text-neutral-500 dark:text-neutral-400">
     I'm happy to connect with you by
-    <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $email | safeURL }}">e-mail</a>
-    or connect on
+    <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $email | safeURL }}">e-mail</a>,
+    on
+    <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $xTwitter | safeURL }}" target="_blank" rel="me noopener noreferrer">X</a>,
+    or
     <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ $linkedin | safeURL }}" target="_blank" rel="me noopener noreferrer">LinkedIn</a>.
   </p>
 </section>
