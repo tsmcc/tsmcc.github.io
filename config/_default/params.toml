@@ -13,7 +13,7 @@ defaultThemeColor = "#FFFFFF"
 images = ["img/28_noBG.png"]
 
 enableSearch = false
-enableCodeCopy = false
+enableCodeCopy = true
 enableImageLazyLoading = true
 enableImageWebp = true
 
