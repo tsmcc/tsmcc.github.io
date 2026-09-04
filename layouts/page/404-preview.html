@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <section class="mx-auto max-w-prose text-center" style="padding-top: 2rem; padding-bottom: 3rem;">
+    <img
+      src="{{ "img/emoji/propeller.svg" | relURL }}"
+      alt=""
+      aria-hidden="true"
+      style="display: inline-block; width: 4.5rem; height: 4.5rem; margin-bottom: 1.5rem;"
+    />
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+    <p class="mt-8 text-base leading-relaxed text-neutral-500 dark:text-neutral-400">
+      The page you’re looking for may have moved, been renamed, or never existed.
+    </p>
+    <nav aria-label="Page not found options" style="margin-top: 2rem;">
+      <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ "/" | relURL }}">Return home</a>
+      <span class="text-neutral-400 dark:text-neutral-500" aria-hidden="true" style="margin: 0 0.65rem;">·</span>
+      <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ "/posts/" | relURL }}">Visit the blog</a>
+      <span class="text-neutral-400 dark:text-neutral-500" aria-hidden="true" style="margin: 0 0.65rem;">·</span>
+      <a class="font-medium text-primary-600 hover:underline dark:text-primary-400" href="{{ "/about/" | relURL }}">Learn about Tim</a>
+    </nav>
+  </section>
+{{ end }}
