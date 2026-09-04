@@ -2,6 +2,9 @@
 title: "Markdown & Congo Feature Showcase"
 date: 2026-09-02T09:00:00-04:00
 draft: false
+build:
+  render: always
+  list: never
 description: "A sample post demonstrating Markdown, Hugo, and Congo theme features."
 summary: "A practical gallery of Markdown formatting, Hugo content features, and Congo shortcodes."
 images: ["feature.jpg"]
