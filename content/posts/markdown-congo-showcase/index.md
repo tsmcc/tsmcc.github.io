@@ -10,13 +10,11 @@ summary: "A practical gallery of Markdown formatting, Hugo content features, and
 images: ["feature.jpg"]
 feature: "feature.jpg"
 featureAlt: "A Hugo-inspired magenta hexagon combined with the Markdown M and downward arrow symbol"
-tags: ["markdown", "hugo", "congo", "sample"]
-categories: ["Examples"]
 showTableOfContents: true
 showAuthor: true
 showReadingTime: true
 showWordCount: true
-showTaxonomies: true
+showTaxonomies: false
 ---
 
 {{< lead >}}
