@@ -2,6 +2,7 @@
 title: "Markdown & Congo Feature Showcase"
 date: 2026-09-02T09:00:00-04:00
 draft: false
+archived: true
 build:
   render: always
   list: never
